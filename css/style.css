@@ -11,6 +11,10 @@ body{
     width: 19%;
 }
 
+#logo1{
+    width: 19%;
+}
+
 #menu{
     background-color:var(--encabezado) !important;
     height: 100px;

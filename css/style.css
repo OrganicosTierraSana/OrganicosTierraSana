@@ -1,0 +1,237 @@
+:root{
+    --encabezado: #533D25;
+    --enlace: #FDFEFE;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#logo{
+    width: 19%;
+}
+
+#menu{
+    background-color:var(--encabezado) !important;
+    height: 100px;
+}
+
+.nav-link{
+    color: var(--enlace);
+    font-weight: bold;
+}
+
+@media(max-width: 989px){
+    .nav-link{
+        background-color: var(--encabezado);
+    }
+} 
+
+.nav-link:hover{
+    color: #C3C7A1;
+}
+
+
+.alto-img{
+    height: 650px !important;
+    object-fit: cover;
+    padding-top: 60px !important;
+    background-size: auto !important;
+    
+}
+
+.btn-warning{
+    background-color: #575A4F;
+    border-color: #535a4f;
+    color: #fff;
+}
+
+.btn-warning:hover{
+    background-color: #C3C7A1;
+    border-color: #bcc7a1;
+    color: #010c05;
+}
+
+.nav-link.active{
+    color: #C3C8A0 !important;
+    font-weight: bold !important;
+    
+}
+
+.nav-link.active:hover{
+    color: #D7D9B0 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(2, 61, 2);
+    background-color: #C3C8A0;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.mapa{
+    text-align: center;
+}
+
+
+/* footer */
+#page-footer{
+    background-color: var(--encabezado);
+}
+
+#page-footer a{
+    color: var(--enlace);
+}
+
+#page-footer .ftcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    padding-top:40px 0;
+    flex-wrap: nowrap;
+}
+
+.footer__menu{
+    max-width: 300px;
+    grid-column: 1/3;
+    grid-row-start: 1;
+    padding-left: 1em;
+}
+
+.footer__menu figure{
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+.footer__logo{
+    width: 300px;
+}
+
+#page-footer .ftcontainer {
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 70px 0; 
+}
+
+@media(max-width: 600px){
+    #page-footer .ftcontainer{
+       flex-direction: column;
+    }
+} 
+
+.ft-social{
+    color: #fff;
+    border-radius: 100%;
+    height: auto;
+    width: 50px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: inherit;
+    padding-left: 20px;
+}
+
+.ft-link{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__title{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-size:1.2rem;
+}
+
+.footer__info{
+    color: #fff;
+    line-height:30px;
+    font-size: 1.0rem;
+}
+
+
+.footer__link:nth-child(1){
+    border-left: 2px solid #C3C8A0;
+}
+.footer__link:nth-child(2){
+    border-left: 2px solid #b5c8a0;
+}
+.footer__link:nth-child(3){
+    border-left: 2px solid #abc8a0;
+}
+.footer__link:nth-child(4){
+    border-left: 2px solid #a0c8a3;
+}
+.footer__link:nth-child(5){
+    border-left: 2px solid #a0c8af;
+}
+
+/* pagina de contacto */
+#contacto .titulo {
+    width: 100%;
+    margin-top: 110px;
+    text-align: center;
+}
+
+.form-label{
+    color: #90a386;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-control{
+    border-color: #a3a3a3;
+}
+
+/* pag de nosotros */
+
+#nosotros .titulo{
+    margin-top: 115px;
+    text-align: center;
+}
+
+/* pag de hortalizas */
+
+#hortalizas .titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+/* pag de frutas */
+
+#frutas .titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+
+
+/* Botón whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
